@@ -1,0 +1,31 @@
+footer {
+    align-content: flex-end;
+    background-color: #2f194a;
+    z-index: 999;
+    // position: absolute;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+
+    .bottom-footer {
+        li a {
+            color: #fff !important;
+            list-style: none;
+        }
+
+        li {
+            color: #fff !important;
+            list-style: none;
+        }
+    }
+}
+
+footer>* {
+    color: #fff !important;
+}
+
+footer p {
+    font-size: 10px;
+    color: #fff !important;
+
+}

@@ -1,0 +1,9 @@
+.top-seller-slider {
+    .carousel-img-container {
+        width: 200px !important;
+        height: 100px !important;
+    }
+    .carousel-img-container img {
+        object-fit: cover !important;
+    }
+}

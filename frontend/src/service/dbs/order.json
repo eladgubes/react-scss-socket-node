@@ -1,0 +1,19 @@
+[
+    {
+        "_id": "152387g",
+        "buyer": {
+            "_id": "hfjf52",
+            "fullName": "elad gubes",
+            "profileImg": ""
+        },
+        "seller": {
+            "_id": "hfjf52",
+            "fullName": "elad gubes",
+            "profileImg": ""
+        },
+        "guestCount":200,
+        "createdAt":1552335516,
+        "eventAt":15522183211,
+        "price":2000
+    }
+]

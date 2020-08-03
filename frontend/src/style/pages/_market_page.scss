@@ -1,0 +1,96 @@
+// $mobile-breakpoint: 660px;
+// $narrow-breakpoint: 1120px;
+.market-page {
+    .search-bar {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+
+        // width: 100%;
+        .search-section {
+            width: 700px;
+            margin: 0 auto;
+            min-width: 200px;
+
+            .form-container {
+                width: 700px;
+            }
+
+            .search-container {
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
+
+                button {
+                    background-color: #2f194a;
+                    color: white;
+                    box-shadow: none;
+                }
+
+                .search-input {
+                    color: black;
+                    width: 100%;
+                }
+
+                .search-input input {
+                    box-shadow: none;
+                    width: 100%;
+                    border-bottom: 1px solid rgb(221, 221, 221);
+                }
+            }
+        }
+    }
+
+    .market {
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+        margin: auto;
+
+    }
+
+    .pagination {
+        margin-bottom: 5vh;
+    }
+
+    .sort-by {
+        max-width: 30%;
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 2.5vh;
+        align-items: center;
+        font-family: "Comfortaa", sans-serif;
+    }
+
+    @media (max-width: 1330px) {}
+
+    @media (max-width: 1320px) {}
+
+    @media (max-width: 1120px) {
+        .search-container {
+            max-width: 70vw;
+
+        }
+    }
+
+    @media (max-width: 660px) {
+
+
+        // grid-template-columns: 1fr;
+    }
+
+    @media (max-width: 440px) {
+        .form-container {
+            width: 90vw !important;
+
+        }
+
+        .market {
+            margin: 0 auto;
+        }
+
+        .search-container {
+            width: 500px;
+        }
+    }
+}

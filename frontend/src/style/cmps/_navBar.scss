@@ -1,0 +1,187 @@
+.nav-bar {
+
+
+    font-family: "Comfortaa",
+        sans-serif;
+
+    color: white;
+    position: relative;
+    background-color: #2f194a;
+
+    a {
+        color: white;
+    }
+
+    .guest-mode {
+        font-size: 18px;
+    }
+
+    .logo-title {
+        color: white;
+        font-family: "Bulletto", sans-serif;
+        font-size: 2.5rem;
+        margin-top: 13px;
+        margin-bottom: 9px;
+    }
+
+    .login-name {
+        padding-left: 5px;
+    }
+
+    .links {
+        width: 650px;
+        position: relative;
+    }
+
+    .user-log {
+        width: 200px;
+    }
+
+    .links a {
+        cursor: pointer;
+    }
+
+    .links a:hover {
+        text-shadow: 1px 1px 2px #ffffff;
+    }
+
+    .user-login-name:hover {
+        text-shadow: none !important;
+        color: #fff;
+        cursor: default;
+    }
+
+    .logged-user {
+        min-width: 80px;
+        align-items: center;
+    }
+
+    .logged-user p {
+        color: white;
+    }
+
+    .logged-user p:hover {
+        color: rgb(193, 224, 193);
+    }
+
+    .img {
+        width: 50px;
+        height: 50px;
+
+        img {
+            border-radius: 50%;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .btn-haburger {
+        display: none
+    }
+
+    .toggle-menu {
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        width: 20px;
+        height: 20px;
+        margin-right: 33px;
+    }
+
+
+    @media (max-width: 940px) {
+        a {
+            color: black;
+            font-weight: 500 !important;
+
+        }
+
+        .user-log {
+            flex-direction: column;
+        }
+
+        .open-nav {
+            background-color: rgba(64, 62, 66, 0.74) !important;
+            transform: translateX(0) !important;
+            transition: 1s ease-in-out;
+            z-index: 999;
+            margin-top: 70px;
+            padding-top: 150px !important;
+            font-size: 20px;
+            display: flex;
+        }
+
+        .open-nav a {
+            padding-left: 15px;
+            padding-right: 15px;
+            z-index: 999;
+            color: #fff;
+            display: block;
+            border-bottom: 1px solid #fff;
+        }
+
+        .links {
+            position: fixed;
+            right: 0;
+            justify-content: flex-start;
+            // padding: 25px;
+            border-left: 2px solid rgb(155, 105, 105);
+            flex-direction: column;
+            width: fit-content;
+            transform: translateX(100%);
+            background-color: rgba(167, 167, 167, 0.404);
+            height: 100vh;
+        }
+
+        .links>div {
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            margin-block-end: 35px;
+        }
+
+        .links>div:hover {
+            width: 100%;
+            text-align: center;
+            // box-shadow: inset 0px -5px 0px 0px rgba(0,0,0,0.75);
+            background-color: rgba(211, 211, 211, 0.356);
+        }
+
+        .btn-haburger {
+            position: absolute;
+            padding-top: 14px;
+            right: 0;
+            top: 0;
+            align-items: center;
+            width: 50px;
+            justify-content: center;
+            height: 50px;
+            display: flex,
+        }
+
+    }
+
+
+    @media (max-width:840px) {}
+
+    @media (max-width:440px) {}
+
+    @media (max-width:380px) {}
+
+
+
+
+    @media (max-width: 440px) {
+        .links {
+            width: 160px;
+            font-size: 15px;
+        }
+
+        .links a {
+            display: inline-block;
+        }
+
+
+
+    }
+}

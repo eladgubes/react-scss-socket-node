@@ -1,0 +1,36 @@
+[
+    {
+        "_id": "152387g",
+        "byUser": {
+            "id": "hfjf52",
+            "fullName": "elad gubes",
+            "profileImg": ""
+        },
+        "rate": 4,
+        "reviews": [
+            {
+                "miniUser": {
+                    "id": "hfjf52",
+                    "fullName": "elad gubes",
+                    "profileImg": ""
+                },
+                "rate": 4,
+                "reviewTxt": "",
+                "createdAt": 15523166612
+            }
+        ],
+        "imgUrls": [
+            ""
+        ],
+        "title": "",
+        "description": "",
+        "tags": [
+            ""
+        ],
+        "price": 10,
+        "area": {
+            "country": "israel",
+            "city": "tal aviv"
+        }
+    }
+]

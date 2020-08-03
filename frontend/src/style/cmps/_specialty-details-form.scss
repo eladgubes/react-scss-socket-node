@@ -1,0 +1,42 @@
+.specialty-details-form {
+    margin: 2rem;
+    padding: 4rem;
+    background-color: rgb(252, 252, 252);
+    input {
+        height: 35px;
+    }
+    aside > h1 {
+        margin-bottom: 2rem;
+    }
+
+    .full-name > input {
+        margin-right: 1rem;
+    }
+    .row > div > input {
+        background-color: rgb(189, 235, 189);
+    }
+    .input {
+        width: 60%;
+    }
+    .description-container {
+        margin-bottom: 2rem;
+    }
+
+    .tags-container h1 {
+        margin: 0;
+    }
+
+    .tags-container p {
+        margin-top: 0;
+    }
+    .country,
+    .city {
+        align-items: center;
+    }
+    .full-name {
+        align-items: center;
+    }
+    .title {
+        align-items: center;
+    }
+}

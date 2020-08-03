@@ -1,0 +1,23 @@
+.hamburger {
+
+
+  .hambuger-container {
+    position: absolute;
+    // padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .line1,
+    .line2,
+    .line3 {
+      margin-top: -13px;
+      margin-block-end: 18px;
+      width: 35px;
+      height: 2px;
+      background-color: rgb(30, 4, 87);
+      border: 2px solid rgb(230, 230, 230);
+    }
+  }
+}

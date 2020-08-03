@@ -1,0 +1,19 @@
+[
+    {
+        "_id": "kfs153",
+        "fullName": "puki ben david",
+        "email": "pukibd@gmail.com",
+        "password": "jej111",
+        "profileImgUrl": "https://img.favpng.com/18/18/18/computer-icons-icon-design-avatar-png-favpng-X29r5WhWMXVYvNsYXkR4iBgwf.jpg",
+        "savedSpecialties": [
+            {
+                "_id": "",
+                "imgUrl": "",
+                "title": ""
+            }
+        ],
+        "createdAt": 15553132132,
+        "lastLoginAt": 1552355111,
+        "isAdmin": false
+    }
+]

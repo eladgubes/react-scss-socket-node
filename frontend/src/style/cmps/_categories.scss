@@ -1,0 +1,14 @@
+.categories {
+    
+    .bottom-border1 {
+        margin-bottom: 1000px !important;
+    }
+
+    .bottom-wave {
+        margin-bottom: -85px;
+        @media (max-width: 1600px) {
+            margin-bottom: -50px;
+        }
+    }
+   
+}

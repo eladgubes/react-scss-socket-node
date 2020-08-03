@@ -1,0 +1,79 @@
+.profile {
+    // min-height: 70vh;
+    margin: auto;
+    margin-top: 30px;
+    height: fit-content;
+    // background-color: yellow;
+    .img-name {
+        width: 400px;
+        .img {
+            width: 150px;
+            height: 150px;
+            img {
+                object-fit: cover;
+                margin: auto;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .name {
+            margin: 0;
+            // margin: auto;
+            h1{
+                margin: 0;
+            }
+        }
+    }
+    .email-password{
+        // background-color: tomato;
+        height: 200px;
+    }
+    .email-password>*>*{
+        margin: 0;
+    }
+    .last-login-id{
+        // background-color: tomato;
+        height: 200px;
+    }
+    .last-login-id>*>*{
+        margin: 0;
+    }
+    // .user-card{
+    //     // width: 100%;
+    //     width: fit-content;
+    //     .user-img{
+    //         border: solid 1px;
+    //         width: 150px;
+    //         height: 150px;
+    //         img{
+    //             width: 100%;
+    //             height: 100%;
+    //         }
+    //     }
+    // }
+    // .info{
+    //     min-width: fit-content;
+    //     // border: solid;
+    //     width: 300px;
+    //     height: 70px;
+    // }
+    // .info p{
+    //     padding-left: 25px;
+    //     margin: auto;
+    // }
+    // .info:last-of-type{
+    //     margin-bottom: 40px;
+    // }
+    // button{
+    //     width: 150px;
+    //     height: 50px;
+    //     border: none;
+    //     background-color: rgb(60, 153, 64);
+    //     color: white;
+    //     font-weight: 900;
+    // }
+    // button:hover{
+    //     transition: 0.25s;
+    //     background-color: rgb(72, 182, 77);
+    // }
+}

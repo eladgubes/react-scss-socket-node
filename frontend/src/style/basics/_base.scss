@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+// P/LABLE STYLE FONT:
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+// H1-6 FONTS
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Lato:wght@700&family=Muli:wght@200&family=Quicksand:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+
+// @mixin font($font-family, $font-file) {
+//     @font-face {
+//         font-family: $font-family;
+//         src: url($font-file) format('truetype'); 
+//         font-weight: normal;
+//         font-style: normal;
+//     }
+// }
+
+// @include font('Bulletto', '@/assets/fonts/Bulletto.ttf');
+
+
+
+html {
+    line-height: 1.5em;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-family: "Quicksand", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+
+    line-height: 1.2em;
+    color: #373538;
+}
+
+a {
+    text-decoration-line: none;
+
+}
+
+li {
+    text-decoration-line: none;
+}
+
+p {
+    // font-family: "Oswald", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+
+    line-height: 1.5em;
+    color: #373538;
+}
+
+label {
+    // font-family: "Oswald", sans-serif;
+    font-family: "Comfortaa", sans-serif;
+
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+option {
+    font-family: "Comfortaa", sans-serif;
+
+}

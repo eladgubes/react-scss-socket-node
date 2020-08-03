@@ -1,0 +1,122 @@
+.login {
+    // width: 100vw;
+    // height: 100vh;
+    top: 81px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.671);
+    z-index: 999;
+    border: 1px solid rgb(224, 224, 224);
+
+    .login-background {
+        background-color: white;
+        padding-top: 30px;
+        width: 400px;
+        height: 590px;
+        border-radius: 5px;
+
+        .close-login {
+            color: black
+        }
+
+        .login-container {
+            width: 80%;
+            height: 90%;
+            // background-color: indigo;
+            justify-content: start;
+
+            h3 {
+                text-align: center;
+            }
+
+            .facebook-btn {
+                background-color: #5576ba;
+                color: white;
+                font-weight: 900;
+            }
+
+            input,
+            button {
+                border: solid 0.5px rgb(209, 209, 209);
+                border-radius: 5px;
+                height: 45px;
+                padding-left: 10px;
+                margin-bottom: 10px;
+            }
+
+            button {
+                background: none;
+            }
+
+            .check-box-input {
+                height: 15px;
+                margin-bottom: 3px;
+            }
+
+            .submit-btn {
+                // background-color: rgb(255, 23, 100);
+                background-color: #19A463;
+                color: white;
+                font-weight: 900;
+            }
+        }
+    }
+
+    .login-container>* {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 45px;
+    }
+
+    .login-container>*>* {
+        width: 100%;
+    }
+
+    .buffer {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        position: relative;
+        height: 15px;
+    }
+
+    .buffer>* {
+        position: absolute;
+        text-align: center;
+    }
+
+    .buffer h5 {
+        background-color: white;
+        width: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .check-box {
+        margin-bottom: 15px;
+    }
+
+    .sign-in {
+        width: 100%;
+        // background-color: lightblue;
+    }
+
+    .sign-in>* {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .sign-in p {
+        margin: auto;
+    }
+
+    hr {
+        border: solid 0.5px rgb(209, 209, 209);
+        ;
+    }
+
+
+
+
+
+
+
+}

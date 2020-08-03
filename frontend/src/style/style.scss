@@ -1,0 +1,74 @@
+// BASIC HELPERS
+
+
+
+@import "./basics/helpers.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+// CMP'S
+//DHASHBOARD
+
+
+
+
+
+@import "./cmps/profile.scss";
+@import "./cmps/shop.scss";
+
+
+
+
+
+
+//NAVBAR
+
+@import "./cmps/_hamburger.scss";
+@import "./cmps/navBar.scss";
+@import "./cmps/login.scss";
+@import "./cmps/sign-up.scss";
+@import "./cmps/saved.scss";
+
+
+@import "./cmps/orders.scss";
+@import "./cmps/full-card.scss";
+@import "./cmps/specialty-details-form.scss";
+@import "./setUp/funcs.scss";
+
+
+@import "./cmps/footer.scss";
+@import "./cmps/multi-carousel.scss";
+@import "./cmps/reviews.scss";
+
+
+@import "./cmps/react-calander.scss";
+@import "./cmps/search.scss";
+@import "./cmps/details-photo-slider.scss";
+@import "./cmps/categories.scss";
+@import "./cmps/add-review.scss";
+
+
+
+
+@import "./basics/base.scss";
+
+
+
+
+
+
+
+
+
+// PAGES
+
+
+
+
+@import "./pages/home.scss";
+@import "./pages/dashboard.scss";
+@import "./pages/user-specialty-details.scss";
+@import "./pages/special-manage.scss";
+@import "./pages/specialty-details.scss";
+@import "./pages/_market_page.scss";
+@import "./pages/specialty-details.scss";
